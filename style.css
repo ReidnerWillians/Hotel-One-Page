@@ -6,28 +6,28 @@ pachecoreidner@gmail.com*/
 
 /* Smartphone Landscape>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
-@media (min-width: 576px) {
-  body {
-    background-color: #02457a;
-  }
-}
+    @media (min-width: 576px) {
+      body {
+        background-color: #02457a;
+      }
+    }
 
 /* Tablet Portrait>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-@media (min-width: 768px) {
-  body {
-    background-color: #d3f180;
-  }
-}
+    @media (min-width: 768px) {
+      body {
+        background-color: #d3f180;
+      }
+    }
 
 /* Tablet Landscape>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-@media (min-width: 992px) {
-    body {
-      background-color: #e62d15;
-    }
-  }
+    @media (min-width: 992px) {
+        body {
+          background-color: #e62d15;
+        }
+      }
 /* Desktope e Notebook >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-@media (min-width: 1200px) {
-    body {
-      background-color: #0ed429;
-    }
-  }
+    @media (min-width: 1200px) {
+        body {
+          background-color: #0ed429;
+        }
+      }
