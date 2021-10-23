@@ -55,6 +55,11 @@ header{
   height: 110px;
 }
 
+a{
+  text-decoration: none;
+}
+
+
 
 /* Smartphone Landscape>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
