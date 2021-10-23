@@ -23,7 +23,7 @@ body{
 
 /* Layout */
 
-.container{
+.Container{
   margin: 0 auto;
   background-color: rgb(147, 158, 152);
 
@@ -38,36 +38,40 @@ body{
       body {
         background-color: #02457a;
       }
-    }
-    .container{
+
+    .Container{
       max-width: 540px;
     }
+  }
 
 /* Tablet Portrait>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
     @media (min-width: 768px) {
       body {
         background-color: #d3f180;
       }
-    }
-    .container{
+    
+    .Container{
       max-width: 720px;
     }
+  }
 
 /* Tablet Landscape>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
     @media (min-width: 992px) {
         body {
           background-color: #e62d15;
         }
-      }
-      .container{
+      
+      .Container{
         max-width: 960px;
       }
+    }
 /* Desktope e Notebook >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
     @media (min-width: 1200px) {
         body {
           background-color: #0ed429;
         }
-      }
-      .container{
+      
+      .Container{
         max-width: 1140px;
       }
+    }
