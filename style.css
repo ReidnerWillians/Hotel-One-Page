@@ -25,14 +25,13 @@ body{
 
 .Container{
   margin: 0 auto;
-  background-color: #d6e8ef;
-
+ 
 }
 
 .Flex{
   display: flex;
   justify-content: space-between;
-  background-color: burlywood;
+  
 }
 
 /* Topo do site */
@@ -55,8 +54,39 @@ header{
   height: 110px;
 }
 
-a{
+#check{
+  display: none;
+}
+
+label{
+  font-size: 3em;
+  padding-right: 15px;
+}
+
+nav ul{
+  list-style: none;
+  background-color: #343538;
+  height: 100vh;
+  position: fixed;
+  top: 60px;
+  right: -100%;
+  width: 100%;
+  transition: all 0.5s;
+}
+
+#check:checked ~ ul{
+  right: 0;
+}
+
+nav ul li{
+  padding: 20px;
+  border-bottom: 1px solid #a9a9a9;
+}
+
+  
+nav ul li a{
   text-decoration: none;
+  color: #fff;
 }
 
 
@@ -64,9 +94,7 @@ a{
 /* Smartphone Landscape>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
     @media (min-width: 576px) {
-      body {
-        background-color: #02457a;
-      }
+    
 
     .Container{
       max-width: 540px;
@@ -75,10 +103,7 @@ a{
 
 /* Tablet Portrait>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
     @media (min-width: 768px) {
-      body {
-        background-color: #d3f180;
-      }
-    
+      
     .Container{
       max-width: 720px;
     }
@@ -86,20 +111,14 @@ a{
 
 /* Tablet Landscape>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
     @media (min-width: 992px) {
-        body {
-          background-color: #e62d15;
-        }
-      
+            
       .Container{
         max-width: 960px;
       }
     }
 /* Desktope e Notebook >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
     @media (min-width: 1200px) {
-        body {
-          background-color: #0ed429;
-        }
-      
+            
       .Container{
         max-width: 1140px;
       }
@@ -110,5 +129,31 @@ a{
         width: 189px;
         height: 189px;
         margin-top: 30px;
+      }
+
+      label{
+        display: none;
+      }
+
+      nav ul{
+        position: static;
+        height: auto;
+        background-color: transparent;
+        margin-top: 50px;
+      }
+
+      nav ul li{
+        float: left;
+        border: 0;
+
+      }
+
+      nav ul li a{
+        color: #343538;
+
+      }
+
+      nav ul li a:hover{
+        color: #c00000;
       }
     }
